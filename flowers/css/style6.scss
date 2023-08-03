@@ -1,0 +1,46 @@
+@import 'style-general.scss';
+.delivery {
+  background-image: url(../img/delivery-fon.png);
+
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+ 
+
+}
+
+.delivery-content {
+  display: flex;
+ 
+ 
+}
+.delivery-content__text {
+  flex: 0 0 70%;
+  margin-bottom: 20px;
+
+}
+.block__title {
+margin-bottom: 20px;
+  &-left{
+  text-align: left;
+line-height: 1;
+}
+}
+.delivery__text {
+  font-size: 18px;
+  color: rgba(61, 49, 55, 0.96);
+}
+.delivery__btn {
+  display: flex;
+  gap: 1rem;
+  margin-top: 35px;
+}
+.btn {
+}
+.delivery__img {
+
+}
+.catalog__bg-1 {
+}
+.catalog__bg-2 {
+}
